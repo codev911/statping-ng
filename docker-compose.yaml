@@ -5,7 +5,7 @@ services:
     image: adamboutcher/statping-ng
     container_name: statping-ng
     ports:
-      - "8080:8090"
+      - "8090:8090"
     stdin_open: true
     tty: true
     volumes:
