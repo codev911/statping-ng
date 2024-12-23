@@ -10,3 +10,4 @@ services:
     tty: true
     volumes:
       - ./data/statping:/app
+      - ./data/statping/asset:/app/assets
