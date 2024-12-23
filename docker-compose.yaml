@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  app:
+    image: adamboutcher/statping-ng
+    container_name: statping-ng
+    ports:
+      - "8080:8080"
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./data/statping-ng:/app
