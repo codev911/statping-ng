@@ -9,5 +9,5 @@ services:
     stdin_open: true
     tty: true
     volumes:
-      - ./data/statpingNG:/app
-      - ./data/statpingNG/asset:/app/assets
+      - ./data/statping:/app
+      - ./data/statping/asset:/app/assets
