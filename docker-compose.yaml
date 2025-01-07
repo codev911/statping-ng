@@ -10,5 +10,5 @@ services:
     # tty: true
     restart: always
     volumes:
-      - ./data/statping-new:/app
+      - ./data/statping:/app
       # - ./data/statping/asset:/app/assets
